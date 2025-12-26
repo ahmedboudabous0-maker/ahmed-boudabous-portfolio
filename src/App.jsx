@@ -21,6 +21,7 @@ import ProjectDetails from "./Pages/ProjectDetails";
 import AdminDashboard from "./components/Admin/Dashboard";
 import ProjectsAdminPage from "./components/Admin/ProjectsAdminPage";
 import AdminUsers from "./components/Admin/Users";
+
 import AdminFormSubmissions from "./components/Admin/AdminFormSubmissions";
 
 function NotFound() {
@@ -57,8 +58,7 @@ function App() {
         <Route path="projects" element={<ProjectsAdminPage />} />
         <Route path="forms" element={<AdminFormSubmissions />} />
         <Route path="users" element={<AdminUsers />} />
-        <Route path="analytics" element={<AdminAnalytics />} />
-        <Route path="settings" element={<AdminSettings />} />
+      
       </Route>
 
       {/* 404 */}

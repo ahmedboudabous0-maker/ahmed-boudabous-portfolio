@@ -1,6 +1,6 @@
 import React from "react";
 import { FaRocket, FaGithub, FaLinkedin } from "react-icons/fa";
-import profile from "../../assets/profile.png";
+import profilePhoto from "C:/all react project/ahmed-boudabous/src/assets/profile.png";
 
 const Hero = () => {
   const user = {
@@ -9,7 +9,7 @@ const Hero = () => {
     description:
       "Étudiant en 3ᵉ année Génie Logiciel et Systèmes d'Information à l'IIT Sfax. Passionné par le développement web, mobile et les architectures microservices avec Spring Boot et Flutter.",
     github: "https://github.com/ahmedboudabous0-maker",
-    linkedin: "https://www.linkedin.com/in/ahmed-boudabous-3200a4361/",
+    linkedin: "https://www.https://www.linkedin.com/in/ahmed-boudabous-3200a4361/",
     email: "ahmedboudabous0@gmail.com",
   };
 
