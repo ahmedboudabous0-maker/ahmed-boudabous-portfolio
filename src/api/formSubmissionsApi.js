@@ -1,6 +1,6 @@
 import axiosClient from './axios';
 
-const API_URL = 'https://694be681da5ddabf00358f9d.mockapi.io/formsubmissions';
+const API_URL = 'https://694ec039b5bc648a93c13662.mockapi.io/form';
 
 export async function createFormSubmission(payload) {
   const res = await axiosClient.post(API_URL, payload);

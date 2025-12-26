@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
-const API_URL = "https://694be681da5ddabf00358f9d.mockapi.io/projet";
+const API_URL = "https://694ec039b5bc648a93c13662.mockapi.io/project";
 
 function ProjectsList() {
   const [projects, setProjects] = useState([]);

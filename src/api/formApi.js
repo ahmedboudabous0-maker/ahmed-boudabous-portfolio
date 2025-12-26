@@ -5,7 +5,7 @@
  * Utilise MockAPI pour stocker les données
  */
 
-const API_URL = "https://694be681da5ddabf00358f9d.mockapi.io";
+const API_URL = "https://694ec039b5bc648a93c13662.mockapi.io/form";
 
 /**
  * Créer une nouvelle soumission de formulaire

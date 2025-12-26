@@ -63,36 +63,6 @@ export default function AdminLayout() {
             Utilisateurs
           </Link>
 
-          <Link
-            to="/admin/forms"
-            className={`flex items-center gap-3 px-6 py-3 hover:bg-gray-800 transition ${isActive(
-              "/admin/forms"
-            )}`}
-          >
-            <FaFileAlt />
-            Formulaires
-          </Link>
-
-          <Link
-            to="/admin/analytics"
-            className={`flex items-center gap-3 px-6 py-3 hover:bg-gray-800 transition ${isActive(
-              "/admin/analytics"
-            )}`}
-          >
-            <FaChartBar />
-            Statistiques
-          </Link>
-
-          <Link
-            to="/admin/settings"
-            className={`flex items-center gap-3 px-6 py-3 hover:bg-gray-800 transition ${isActive(
-              "/admin/settings"
-            )}`}
-          >
-            <FaCog />
-            Paramètres
-          </Link>
-
           {/* LOGOUT */}
           <button
             onClick={handleLogout}
