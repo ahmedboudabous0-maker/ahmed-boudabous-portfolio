@@ -21,8 +21,6 @@ import ProjectDetails from "./Pages/ProjectDetails";
 import AdminDashboard from "./components/Admin/Dashboard";
 import ProjectsAdminPage from "./components/Admin/ProjectsAdminPage";
 import AdminUsers from "./components/Admin/Users";
-import AdminAnalytics from "./components/Admin/Statistics";
-import AdminSettings from "./components/Admin/Settings";
 import AdminFormSubmissions from "./components/Admin/AdminFormSubmissions";
 
 function NotFound() {
