@@ -1,6 +1,6 @@
 import React from "react";
 import { FaRocket, FaGithub, FaLinkedin } from "react-icons/fa";
-import profilePhoto from "C:/all react project/ahmed-boudabous/src/assets/profile.png";
+import profile from "../../assets/profile.png";
 
 const Hero = () => {
   const user = {
